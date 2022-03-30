@@ -100,7 +100,7 @@ namespace projectPurpleCow.Controllers
             }
             await _context.SaveChangesAsync();
 
-            return Content("Items were added to database. Please refer to localhost:3000/item to see changes");
+            return Content("Items were added to database. Please refer to localhost:3000/items to see changes");
         }
 
         // delete specific item
